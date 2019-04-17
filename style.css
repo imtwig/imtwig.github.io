@@ -603,8 +603,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:10px;
 		margin-bottom:5px;
 	}
-		.mg-clear-xs{
-		margin:0;
+		.mg-md-xs{
+		margin-top:10px;
+		margin-bottom:20px;
 	}
 	
 }
