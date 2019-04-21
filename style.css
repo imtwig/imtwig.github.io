@@ -52,36 +52,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:20px 50px;
 }
 
-/* = Full Screen Blocs 
--------------------------------------------------------------- */
-
-.bloc-fill-screen{
-	min-height:100vh;
-	display: flex;
-	flex-direction: column;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-.bloc-fill-screen > .container{
-	align-self: flex-middle;
-	flex-grow: 1;
-	display: flex;
-}
-.bloc-fill-screen > .container > .row{
-	flex-grow: 1;
-	align-self: center;
-	width:100%;
-}
-.bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
-	flex-grow: 0;
-}
-.bloc-fill-screen .fill-bloc-top-edge{
-	align-self: flex-start;
-}
-.bloc-fill-screen .fill-bloc-bottom-edge{
-	align-self: flex-end;
-}
-
 
 /* Dark theme */
 
@@ -285,11 +255,6 @@ button{
 	opacity: 1;
 }
 
-/* Hide Object */
-.object-hidden{
-	display:none;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -367,7 +332,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 }
 .p-bloc-0-style{
-	line-height:32px;
+	line-height:28px;
+	font-family:Lato;
+	font-weight:400;
 }
 .link-medium-style{
 	text-decoration:underline;
@@ -381,6 +348,39 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-style{
 	font-family:Lato;
 	font-weight:400;
+}
+.h1-2-style{
+	font-family:Lato;
+	font-weight:900;
+}
+.h3-2-style{
+	font-family:Lato;
+	font-weight:400;
+}
+.p-46788-style{
+	line-height:28px;
+	font-family:Lato;
+	font-weight:400;
+}
+.h3-bloc-2-style{
+	font-family:Lato;
+	font-weight:900;
+}
+.h5-undergraduate-style{
+	font-family:Lato;
+	font-weight:900;
+}
+.h5-ux-student-style{
+	font-family:Lato;
+	font-weight:900;
+}
+.h5-bloc-4-style{
+	font-family:Lato;
+	font-weight:900;
+}
+.h5-bloc-2-style{
+	font-family:Lato;
+	font-weight:900;
 }
 
 /* = Colour
@@ -402,15 +402,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-white{
 	color:#FFFFFF!important;
-}
-
-/* Link colour styles */
-
-.ltc-palatinate-blue{
-	color:#233BFF!important;
-}
-.ltc-palatinate-blue:hover{
-	color:#1c2fcc!important;
 }
 
 /* Bloc image backgrounds */
@@ -512,6 +503,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 		font-size:24px;
 		line-height:28px;
+		font-family:Roboto;
+		font-weight:800;
 	}
 	.mt-1{
 	}
@@ -568,6 +561,40 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h6-bloc-2-style{
 		font-size:12px;
 		line-height:18px;
+	}
+	.p-46788-style{
+		font-size:12px;
+		line-height:18px;
+	}
+	.h3-2-style{
+		font-size:20px;
+		line-height:24px;
+	}
+	.h1-2-style{
+		font-size:24px;
+		line-height:30px;
+	}
+	.h3-bloc-2-style{
+		font-family:Lato;
+		font-weight:900;
+		font-size:24px;
+		line-height:30px;
+	}
+	.h5-bloc-2-style{
+		font-family:Lato;
+		font-weight:900;
+	}
+	.h5-bloc-4-style{
+		font-family:Lato;
+		font-weight:900;
+	}
+	.h5-ux-student-style{
+		font-family:Lato;
+		font-weight:900;
+	}
+	.h5-undergraduate-style{
+		font-family:Lato;
+		font-weight:900;
 	}
 	
 }
