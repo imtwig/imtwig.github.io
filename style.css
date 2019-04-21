@@ -42,9 +42,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
-}
 .bloc-md{
 	padding:50px;
 }
