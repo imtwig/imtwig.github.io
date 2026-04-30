@@ -1,7 +1,0 @@
-project_id = "txgfubqeodypgveuispo"
-
-[functions.telegram-debug]
-verify_jwt = false
-
-[functions.weekly-visitor-report]
-verify_jwt = false
