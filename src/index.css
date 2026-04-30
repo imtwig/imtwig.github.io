@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Warm editorial design system — "Cozy corner of the internet"
+   Cream / Espresso / Terracotta palette. All colors HSL. */
+
+@layer base {
+  :root {
+    --background: 36 33% 97%;
+    --foreground: 20 25% 12%;
+
+    --card: 36 30% 98%;
+    --card-foreground: 20 25% 12%;
+
+    --popover: 36 30% 98%;
+    --popover-foreground: 20 25% 12%;
+
+    --primary: 24 70% 45%;
+    --primary-foreground: 36 33% 97%;
+
+    --secondary: 36 20% 93%;
+    --secondary-foreground: 20 25% 12%;
+
+    --muted: 36 15% 92%;
+    --muted-foreground: 20 15% 45%;
+
+    --accent: 16 60% 50%;
+    --accent-foreground: 36 33% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 36 33% 97%;
+
+    --border: 36 20% 87%;
+    --input: 36 20% 87%;
+    --ring: 24 70% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom portfolio tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(36 33% 97%) 0%, hsl(36 20% 94%) 100%);
+    --transition-smooth: all 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+
+    --sidebar-background: 36 30% 96%;
+    --sidebar-foreground: 20 25% 12%;
+    --sidebar-primary: 24 70% 45%;
+    --sidebar-primary-foreground: 36 33% 97%;
+    --sidebar-accent: 36 15% 92%;
+    --sidebar-accent-foreground: 20 25% 12%;
+    --sidebar-border: 36 20% 87%;
+    --sidebar-ring: 24 70% 45%;
+  }
+
+  .dark {
+    --background: 20 25% 8%;
+    --foreground: 36 33% 93%;
+
+    --card: 20 25% 11%;
+    --card-foreground: 36 33% 93%;
+
+    --popover: 20 25% 11%;
+    --popover-foreground: 36 33% 93%;
+
+    --primary: 24 75% 52%;
+    --primary-foreground: 20 25% 8%;
+
+    --secondary: 20 18% 15%;
+    --secondary-foreground: 36 33% 93%;
+
+    --muted: 20 15% 18%;
+    --muted-foreground: 36 15% 60%;
+
+    --accent: 16 65% 55%;
+    --accent-foreground: 20 25% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 36 33% 93%;
+
+    --border: 20 15% 20%;
+    --input: 20 15% 20%;
+    --ring: 24 75% 52%;
+
+    --sidebar-background: 20 25% 8%;
+    --sidebar-foreground: 36 33% 93%;
+    --sidebar-primary: 24 75% 52%;
+    --sidebar-primary-foreground: 20 25% 8%;
+    --sidebar-accent: 20 15% 15%;
+    --sidebar-accent-foreground: 36 33% 93%;
+    --sidebar-border: 20 15% 20%;
+    --sidebar-ring: 24 75% 52%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  
+  .section-padding {
+    @apply px-6 py-20 md:px-12 lg:px-24;
+  }
+}

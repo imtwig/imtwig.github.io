@@ -1,0 +1,1 @@
+ALTER TABLE public.cms_case_studies ADD COLUMN hero_images text[] NOT NULL DEFAULT '{}'::text[];
